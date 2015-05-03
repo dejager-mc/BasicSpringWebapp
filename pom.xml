@@ -37,6 +37,12 @@
             <artifactId>spring-web</artifactId>
             <version>3.2.0.RELEASE</version>
         </dependency>
+        <!--Spring JMS -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jms</artifactId>
+            <version>4.1.4.RELEASE</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -49,7 +55,8 @@
                 <configuration>
                     <glassfishDirectory>E:\JAVA\Projects\3_server\glassfish3</glassfishDirectory>
                     <user>admin</user>
-                    <adminPassword>admin</adminPassword> <!-- ER MOET EEN WACHTWOORD ZIJN IN GLASSFISH -->
+                    <adminPassword>admin</adminPassword>
+                    <!-- ER MOET EEN WACHTWOORD ZIJN IN GLASSFISH -->
                     <domain>
                         <name>domain1</name>
                         <httpPort>8080</httpPort>
