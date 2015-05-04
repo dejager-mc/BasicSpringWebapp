@@ -17,6 +17,7 @@ import java.io.Serializable;
 @ManagedBean
 @SessionScoped
 public class RegistrationUser implements Serializable{
+
     @Autowired
     Registration registration;
 
